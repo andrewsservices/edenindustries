@@ -1,0 +1,215 @@
+{
+  "current": {
+    "colors_solid_button_labels": "#ffffff",
+    "colors_accent_1": "#002644",
+    "colors_accent_2": "#334FB4",
+    "colors_text": "#002644",
+    "colors_outline_button_labels": "#002644",
+    "colors_background_1": "#FFFFFF",
+    "colors_background_2": "#F3F3F3",
+    "type_header_font": "open_sans_n4",
+    "type_body_font": "open_sans_n4",
+    "social_facebook_link": "https:\/\/www.facebook.com\/edenmyco",
+    "social_instagram_link": "https:\/\/www.instagram.com\/edenshrooms\/",
+    "social_youtube_link": "https:\/\/www.youtube.com\/channel\/UCxoW4ZmBdTynn22ldbHWNuw",
+    "predictive_search_show_vendor": false,
+    "favicon": "shopify:\/\/shop_images\/eden-shrooms-icon.png",
+    "currency_code_enabled": false,
+    "checkout_logo_image": "shopify:\/\/shop_images\/hieden-logo-1_3x_22159289-ef29-4bad-bf66-54bd889fc605.png",
+    "checkout_accent_color": "#066cbc",
+    "checkout_button_color": "#002644",
+    "sections": {
+      "announcement-bar": {
+        "type": "announcement-bar",
+        "blocks": {
+          "announcement-bar-0": {
+            "type": "announcement",
+            "disabled": true,
+            "settings": {
+              "text": "Spend $50 and get FREE shipping",
+              "color_scheme": "background-1",
+              "link": ""
+            }
+          }
+        },
+        "block_order": [
+          "announcement-bar-0"
+        ],
+        "settings": {
+        }
+      },
+      "header": {
+        "type": "header",
+        "settings": {
+          "color_scheme": "background-1",
+          "logo": "shopify:\/\/shop_images\/eden-shrooms-magic-mushroom-spores-buy-online.png",
+          "logo_width": 250,
+          "logo_position": "middle-left",
+          "menu": "main-menu",
+          "show_line_separator": true,
+          "enable_sticky_header": true,
+          "phone": "(888) 808-EDEN",
+          "phone_url": "tel:+18888083336"
+        }
+      },
+      "footer": {
+        "type": "footer",
+        "blocks": {
+          "footer-0": {
+            "type": "link_list",
+            "settings": {
+              "heading": "Quick links",
+              "menu": "footer"
+            }
+          },
+          "b01a963f-6709-41eb-b3cd-133bf54f2c43": {
+            "type": "link_list",
+            "settings": {
+              "heading": "Mycology 101",
+              "menu": "mycology-101"
+            }
+          },
+          "footer-1": {
+            "type": "text",
+            "settings": {
+              "heading": "Spore Locator",
+              "subtext": "<p>Explore our network of Authorized Retailers<\/p><p><a href=\"\/pages\/store-locator\" title=\"Store Locator\"><strong>Find Eden Shrooms at a store near you<\/strong><\/a><\/p>"
+            }
+          },
+          "5e637eaa-0251-4e0e-8e87-0527e27d8f79": {
+            "type": "image",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/mobile.logo.png",
+              "image_width": 160,
+              "alignment": "right",
+              "bottomtext": "<p><strong>Contact Info<\/strong><\/p><p>Call: <a href=\"tel:+18888083336\" title=\"Call 888-808-EDEN\">(888) 808-EDEN<\/a><\/p><p>Email: <a href=\"mailto:info@edenshrooms.com\" title=\"Email info@edenshrooms.com\">info@edenshrooms<\/a><\/p>"
+            }
+          }
+        },
+        "block_order": [
+          "footer-0",
+          "b01a963f-6709-41eb-b3cd-133bf54f2c43",
+          "footer-1",
+          "5e637eaa-0251-4e0e-8e87-0527e27d8f79"
+        ],
+        "settings": {
+          "color_scheme": "accent-1",
+          "newsletter_enable": false,
+          "newsletter_heading": "Sign-up and get free mycology tutorials and special offers.",
+          "show_social": true,
+          "enable_country_selector": false,
+          "enable_language_selector": false,
+          "payment_enable": false
+        }
+      }
+    },
+    "content_for_index": [
+
+    ],
+    "blocks": {
+      "10605408327587305396": {
+        "type": "shopify:\/\/apps\/easygift-auto-add-to-cart\/blocks\/app-embed\/0f7d4f74-1e89-4820-aec4-6564d7e535d2",
+        "disabled": false,
+        "settings": {
+          "version": "v3"
+        }
+      },
+      "18209738915288330680": {
+        "type": "shopify:\/\/apps\/wholesale-all-in-one\/blocks\/wholesale-all-in-one\/5a3d95fb-5647-47d5-8445-d5858f91ff9d",
+        "disabled": false,
+        "settings": {
+          "wsaio_app_access_token": "dawn_wsaiouvh6qz_JQ_PG16",
+          "wsaio_main_js_file": "",
+          "wsaio_main_liquid_file": "",
+          "wsaio_modules_liquid_file": "",
+          "wsaio_addons_liquid_file": "{%- render 'waio-advance-minimum-control' -%}",
+          "wsaio_custom_css_file": ""
+        }
+      },
+      "3838990611052461119": {
+        "type": "shopify:\/\/apps\/customerhub\/blocks\/app-embed\/0fb3ba0b-4c65-4919-a85a-48bc2d368e9c",
+        "disabled": false,
+        "settings": {
+          "account_primary_page": "",
+          "main_element": "",
+          "custom_element": "",
+          "page_element": "",
+          "proxy_element": "",
+          "mount_json_code": ""
+        }
+      },
+      "855628211100114053": {
+        "type": "shopify:\/\/apps\/klaviyo-email-marketing-sms\/blocks\/klaviyo-onsite-embed\/2632fe16-c075-4321-a88b-50b567f42507",
+        "disabled": false,
+        "settings": {
+        }
+      }
+    }
+  },
+  "presets": {
+    "Default": {
+      "colors_solid_button_labels": "#FFFFFF",
+      "colors_accent_1": "#121212",
+      "colors_accent_2": "#334FB4",
+      "colors_text": "#121212",
+      "colors_outline_button_labels": "#121212",
+      "colors_background_1": "#FFFFFF",
+      "colors_background_2": "#F3F3F3",
+      "type_header_font": "assistant_n4",
+      "type_body_font": "assistant_n4",
+      "sections": {
+        "announcement-bar": {
+          "type": "announcement-bar",
+          "blocks": {
+            "announcement-bar-0": {
+              "type": "announcement",
+              "settings": {
+                "color_scheme": "background-1"
+              }
+            }
+          },
+          "block_order": [
+            "announcement-bar-0"
+          ],
+          "settings": {
+          }
+        }
+      }
+    },
+    "Craft": {
+      "colors_solid_button_labels": "#EFECEC",
+      "colors_accent_1": "#2A332F",
+      "colors_accent_2": "#476154",
+      "colors_text": "#1C1A1A",
+      "colors_outline_button_labels": "#7B8382",
+      "colors_background_1": "#EFECEC",
+      "colors_background_2": "#C1BCAE",
+      "type_header_font": "americana_n4",
+      "type_body_font": "quattrocento_sans_n4",
+      "sections": {
+        "footer": {
+          "type": "footer",
+          "blocks": {
+            "menu": {
+              "type": "link_list",
+              "settings": {
+              }
+            },
+            "text": {
+              "type": "text",
+              "settings": {
+              }
+            }
+          },
+          "block_order": [
+            "menu",
+            "text"
+          ],
+          "settings": {
+            "color_scheme": "accent-1"
+          }
+        }
+      }
+    }
+  }
+}

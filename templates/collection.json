@@ -1,0 +1,49 @@
+{
+  "sections": {
+    "banner": {
+      "type": "main-collection-banner",
+      "settings": {
+        "show_collection_description": true,
+        "show_collection_image": false
+      }
+    },
+    "product-grid": {
+      "type": "main-collection-product-grid",
+      "settings": {
+        "products_per_page": 24,
+        "image_ratio": "adapt",
+        "show_secondary_image": false,
+        "add_image_padding": false,
+        "show_image_outline": true,
+        "show_vendor": false,
+        "show_rating": false,
+        "enable_filtering": true,
+        "enable_sorting": true,
+        "collapse_on_larger_devices": false
+      }
+    },
+    "16557756891d318ce1": {
+      "type": "rich-text",
+      "blocks": {
+        "165577568930a08cca-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p><em>Psychedelic mushroom spores for research and microscopy only. Please do not inoculate grains or any other substrates with our magic mushroom spore syringes. The subsequent mycelia and fruiting bodies that will be produced will contain psilocybin and\/or psilocin, which are active substances that are classified as Schedule I drugs under the Controlled Substances Act.<\/em><\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "165577568930a08cca-1"
+      ],
+      "settings": {
+        "color_scheme": "background-1",
+        "full_width": true
+      }
+    }
+  },
+  "order": [
+    "banner",
+    "product-grid",
+    "16557756891d318ce1"
+  ]
+}

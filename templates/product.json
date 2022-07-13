@@ -1,0 +1,98 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-product",
+      "blocks": {
+        "vendor": {
+          "type": "text",
+          "settings": {
+            "text": "{{ product.vendor }}",
+            "text_style": "uppercase"
+          }
+        },
+        "title": {
+          "type": "title",
+          "settings": {
+          }
+        },
+        "price": {
+          "type": "price",
+          "settings": {
+          }
+        },
+        "variant_picker": {
+          "type": "variant_picker",
+          "settings": {
+            "picker_type": "button"
+          }
+        },
+        "quantity_selector": {
+          "type": "quantity_selector",
+          "settings": {
+          }
+        },
+        "buy_buttons": {
+          "type": "buy_buttons",
+          "settings": {
+            "show_dynamic_checkout": false
+          }
+        },
+        "description": {
+          "type": "description",
+          "settings": {
+          }
+        },
+        "22bb1f84-1b0b-4fb0-9b94-89c0e15fa7f2": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "Shipping Information",
+            "content": "<p>All orders ship within 1 business day. Delivery times are typically 2-3 days to most locations.<\/p><p><em>Shipping of any active mushroom spores is unavailable to California, Idaho, and Georgia due to state laws.<\/em><\/p><p>If you have any questions regarding shipping to your location, don't hesitate to email or call our sales team.<\/p>",
+            "page": "",
+            "icon": "box"
+          }
+        },
+        "25e6a958-6db7-4c68-aaf6-cfb677ce054a": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "Product & Shipping Disclaimers",
+            "content": "<p><em>These spores are from a species that produces psilocybin and psilocin. Shipping of active mushroom spores is unavailable to California, Idaho, and Georgia due to state laws.<\/em><\/p><p><em>Please note, our magic mushroom spores are intended for microscopy and taxonomy purposes only. Images provided are for informational and educational reference and come from cultivators and labs outside of the USA. Eden Shrooms is not involved in the cultivation of active mushroom species. Cultivation of magic mushrooms, which includes all psilocybin and psilocin containing mushroom species is illegal in the United States.<\/em><\/p><p><em>DO NOT inoculate grains or any other substrates with our Magic Mushroom Spores. The subsequent mycelia and fruiting bodies that will be produced will contain psilocybin and\/or psilocin, which are active substances that are classified as Schedule I drugs under the Controlled Substances Act.<\/em><\/p>",
+            "page": "",
+            "icon": "lock"
+          }
+        }
+      },
+      "block_order": [
+        "vendor",
+        "title",
+        "price",
+        "variant_picker",
+        "quantity_selector",
+        "buy_buttons",
+        "description",
+        "22bb1f84-1b0b-4fb0-9b94-89c0e15fa7f2",
+        "25e6a958-6db7-4c68-aaf6-cfb677ce054a"
+      ],
+      "settings": {
+        "enable_sticky_info": true,
+        "hide_variants": false,
+        "enable_video_looping": false
+      }
+    },
+    "product-recommendations": {
+      "type": "product-recommendations",
+      "settings": {
+        "heading": "You may also like",
+        "image_ratio": "adapt",
+        "show_secondary_image": false,
+        "add_image_padding": false,
+        "show_image_outline": true,
+        "show_vendor": false,
+        "show_rating": false
+      }
+    }
+  },
+  "order": [
+    "main",
+    "product-recommendations"
+  ]
+}

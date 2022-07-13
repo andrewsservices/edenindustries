@@ -1,0 +1,51 @@
+/* ===========header========== */
+.header__icon--phone{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+}
+.header__icon--phone .icon{
+  height: 25px;
+  width: 25px;
+  vertical-align: middle;
+  fill: rgb(0, 38, 68);
+}
+.header__icon--phone span{
+	padding: 0 10px;
+}
+.bottom-text a{
+	color: rgba(255, 255, 255, 0.75);
+}
+
+@media screen and (max-width: 1080px){
+  .main-header{
+    padding:.5rem;
+  }
+}
+
+@media screen and (max-width: 1000px){
+  .header-phone{
+    font-size: 12px;
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 989px){
+  .custom-main-header{
+    display:flex;
+    justify-content: space-between;
+  }
+}
+
+@media screen and (max-width: 749px){
+  .need-help, .header__icon--phone{
+  	padding: 1.1rem 3.2rem;
+    justify-content: flex-start;
+    margin: 0;
+  }
+  .mobile-phone{
+  	border-top: 1px solid #ddd;
+  }
+}
+
