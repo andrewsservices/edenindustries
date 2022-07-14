@@ -834,6 +834,10 @@ a.product__text {
   margin: 0 auto;
 }
 
+.width-seventy-percent{
+  width: 70%;
+}
+
 .justify-content-center{
   justify-content: center;
 }
